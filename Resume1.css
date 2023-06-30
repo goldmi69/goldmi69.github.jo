@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Belanosima&family=Lobster&family=Roboto&display=swap');
+
+.full{
+     font-family: 'Roboto', sans-serif; 
+     /* margin-left: 50px;  */
+    
+     
+}
+/* ref */
+
+.hrefv{
+  color: white;
+    text-decoration: none;
+    background:    rgb(18, 147, 228);
+    border: 10px solid rgb(18, 147, 228);
+border-radius: 10px;  
+}
+
+.hrefi{
+     text-decoration: none;
+color: white;
+    text-decoration: none;
+    background:    rgb(228, 18, 165);
+    border: 10px solid rgb(228, 18, 193);
+    border-radius: 10px; 
+}
+    
+
+.hrefw:hover{
+    color: aliceblue;
+   opacity: 0.8; 
+    color: grey;
+}
+
+.hrefv:hover{
+    color: aliceblue;
+   opacity: 0.8; 
+   color: grey;
+}
+
+.hrefi:hover{
+    color: aliceblue;
+   opacity: 0.8; 
+   color: grey;
+}
+
+
+.hrefw{
+    text-decoration: none;
+    color: white;
+        text-decoration: none;
+        background:    darkmagenta;
+        border: 10px solid darkmagenta;
+        border-radius: 10px;   
+}
+/* ref */
+
+.sps{
+    
+    width: 30%;
+    /* margin-right: 800px; */
+    background: rgb(199, 253, 253);
+    border: 2px solid lightcyan;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+.form{
+    
+    width: 40%;
+    /* margin-right: 800px; */
+    background: rgb(192, 255, 255);
+    border: 2px solid lightcyan;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.end{
+ 
+  background: rgb(165, 241, 241);
+  border: 1px solid   rgb(146, 195, 211);
+  border-radius: 10px;
+    padding: 8px;
+   
+}
+
+.end:hover{
+    color: aliceblue;
+   opacity: 0.8; 
+    
+}
+
+
+
+.avatar{
+    border-radius: 10px;
+    box-shadow: 4px 4px 14px rgb(160, 160, 160) ;
+ 
+}
+    
+  
+
+.alex1{
+    display: flex;
+    margin-top: 50px;
+}
+
+.alex{
+    margin: 20px;
+}
+
+
+.sps li {
+
+    padding-bottom: 10px; 
+}
+
+
+body{
+    background-color: lightcyan;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.navbar{
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+ display: flex;
+    z-index: 3;
+    background: rgb(202, 248, 248);
+    /* padding: 10px 20px; */
+    margin-bottom: 10px;
+}
+.navbar ul{
+      /* position: fixed;   */
+     
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding: 0 20px;
+}
+
+.navbar ul li {
+    margin-right:20px ;
+    padding: 10px;
+}
+.navbar ul li:hover{
+
+background: rgb(179, 241, 241);
+}
+
+
+@media(max-width: 590px) {
+
+.alex1{
+    display: block;
+}
+
+}
